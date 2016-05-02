@@ -1,0 +1,191 @@
+/*
+*	File:   styles.css
+*	By:     Shaelyn Ellis
+*	Date:   03-01-2014
+*
+*	I borrowed from the original project,
+*       but adjusted and modified to improve upon the site 
+*
+*=====================================
+*/
+
+#wrapper {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #8a0808;
+    
+}
+* {
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+/* general */
+a {
+	color:#777;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#333;
+	text-decoration:none;
+}
+
+/* body */
+body {
+	/*background:#fafafa; */
+	background:#424242;
+	color:#a4a4a4;
+	font:0.8em Arial, Helvetica, "bitstream vera sans", sans-serif;
+}
+
+.usercount {
+	text-align:center;
+        font-size: 1.25em;
+        margin: 0px 0px 15px 0px;
+}
+
+/* header */
+#header {
+        background-image: url("../images/topart.jpg");
+	height:160px;
+	margin:0 auto;
+	width:900px;
+}
+#header h1 {
+	color:#cc3333;
+	font-size:425%;
+	letter-spacing:-3px;
+	text-align:right;
+	padding:125px 10px 0px 0px;
+}
+#header h2 {
+	color:#999999;
+	font-size:200%;
+	letter-spacing:-2px;
+	text-align:right;
+        margin-top: -14px;
+}
+
+/* navigation */
+#navigation {
+	/*background:#fafafa; */
+	background:#3d0c02;
+	border-right:1px solid #999;
+	margin:50px auto;
+	/*width:750px; */
+	width:900px;
+	height:40px;
+	list-style:none;
+}
+#navigation li {
+	border-left:1px solid #999;
+	float:left;
+	width:149px;
+	list-style:none;
+}
+#navigation a {
+	color:#a1a1a1;
+	display:block;
+	line-height:40px;
+	text-align:center;
+}
+#navigation a:hover {
+	background:#e3e3e3;
+	color:#3d0c02;
+}
+#navigation .active {
+	background:#e3e3e3;
+	color:#777;
+}
+.search {
+    float: right;
+    margin: -30px 55px 0px 0px;
+    text-decoration: underline overline ;
+    font-style: italic;
+    color: #e3e3e3;
+}
+.adTable {
+    display: table;
+    margin: 0px;
+}
+.trow {
+    display: table-row;
+}
+.td1, .td2 {
+    display: table-cell;
+    vertical-align: top;
+}
+.rgt {
+    padding: 50px 0px 0px 10px;
+}
+.intro {
+    font-size: 1.50em;
+}
+#srcForm {
+    margin: 40px;
+}
+/* content */
+#content {
+	height:auto;
+	margin:0 auto;
+	padding:0 0 20px;
+	width:900px;
+}
+#content h1 {
+	/* border-bottom:1px dashed #999; */
+	text-align:center;
+	padding:20px 0px 0px 0px;
+        color: #cc3333;
+}
+#content h2 {
+	text-align:center;
+        margin: 8px 0px 11px 0px;
+}
+
+#content p {
+	padding:20px 20px 0;
+}
+
+/* footer */
+#footer {
+	border-top:1px solid #999; 
+	height:50px;
+	margin:0 auto;
+	padding:10px;
+	text-align:center;
+	/*width:751px; */
+	width:900px;
+}
+
+/* Added by Larry Ullman: */
+.error {
+	font-weight: bold;
+	color: #C00
+}
+.update {
+    font-weight: bold;
+    text-align:	center;
+    color: green;
+}
+th, th a {
+	text-align:left;
+        font-size: 110%;
+        padding-left: 2px;
+        background-color: #a1a1a1;
+	color: #3d0c02;
+}
+
+th a:hover{
+    color: #ffffff;
+}
+
+td {
+    padding: 4px;
+    color: #8a0808;
+}
+td.ident {
+   color: #cc3333; 
+}
